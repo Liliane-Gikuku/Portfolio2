@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 :root {
-    --green: #7FE058;
+    --green: #F08C8F;
 }
 
 * {
@@ -359,17 +359,38 @@ body {
     color: #fff;
 }
 
-#hobe{
-    background-color: #eee;
-    color: #222;
+#hobe a{
+    background-color: #222;
+    color: #fff;
     font-size: medium;
+   
+}
+#hobe{
+background-color: #222;
 }
 
+#hobe :hover{
+    background-color: #F08C8F;
+    text-decoration:none;
+    height: fit-content;
+    }
+
+    
+
+#hobe a :hover{
+    background-color: #F08C8F;
+    color:white ;
+    text-decoration:none;
+    font-size: medium;
+    color: #111;
+   
+}
 .web{
     display:flex;
     padding: 5rem 1rem;
     grid-gap: 2rem;
     margin-left:15rem;
+    
    
     
     
@@ -380,9 +401,53 @@ body {
     
 }
 
-#view{
-    margin-left:10rem;
-    padding:1rem 0rem;
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+    text-decoration: none;
+    color: #1B963C;
+  }
+  
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: #1B963C;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+    text-decoration: none;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .design{
+    margin-left: 30%;
+    display: flex;
+    margin-top: 20%;
+  }
+
+  #catchy{
+    background-color: #F08C8F;
     
-    
-}
+  }
+
+  #catchy h2{
+    margin-top: 25%;
+  }
+
+
+
+
+  
