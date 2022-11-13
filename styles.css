@@ -360,31 +360,26 @@ body {
 }
 
 #hobe a{
-    background-color: #222;
-    color: #fff;
+    /* background-color: #222; */
+    color: white;
     font-size: medium;
    
 }
 #hobe{
-background-color: #222;
+background-color: #1a1a1a;
+border: solid #F08C8F;
+border-width: 1px;
+
 }
 
 #hobe :hover{
     background-color: #F08C8F;
     text-decoration:none;
-    height: fit-content;
+    color: #1a1a1a;
+    
     }
 
     
-
-#hobe a :hover{
-    background-color: #F08C8F;
-    color:white ;
-    text-decoration:none;
-    font-size: medium;
-    color: #111;
-   
-}
 .web{
     display:flex;
     padding: 5rem 1rem;
@@ -433,21 +428,55 @@ background-color: #222;
   }
 
   .design{
-    margin-left: 30%;
+    margin-left: 17%;
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
+   
   }
 
   #catchy{
-    background-color: #F08C8F;
+    background-color: #1a1a1a;
+    
     
   }
 
   #catchy h2{
-    margin-top: 25%;
+    margin-top: 15%;
+    color: white;
+    font-size: 25px;
+    margin-left: 22%;
   }
 
+  .design #hobe{
+    background-color: #F08C8F;
+   
 
+}
+
+.design #hobe a{
+    background-color: #111;
+    
+   
+
+}
+
+ #hobe :hover a{
+    background-color: #1a1a1a;
+    color:#F08C8F;
+   
+
+}
+
+
+
+
+.designe{
+    margin-top: 5%;
+}
+
+#li{
+    
+}
 
 
   
